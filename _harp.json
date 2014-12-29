@@ -1,0 +1,15 @@
+{
+  "globals": {
+    "title": "Internet of Things Telefonica VIVO - IoT",
+    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas. Um kit completo de fácil programação para a criação de aplicações.",
+    "socials": [
+      {
+        "name": "twitter",
+        "link": "http://www.twitter.com"
+      }, {
+        "name": "facebook",
+        "link": "https://www.facebook.com/groups/IoTM2M"
+      }
+    ]
+  }
+}

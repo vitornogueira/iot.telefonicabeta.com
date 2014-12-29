@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"              content="width=device-width, initial-scale=1">
+    <meta name="description"           content="<%= description %>">
+    <meta name="author"                content="Telefonica VIVO">
+
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title><%= title %></title>
+
+    <meta property="og:site_name"      content="<%= title %>">
+    <meta property="og:title"          content="<%= title %>">
+    <meta property="og:og:description" content="Uma ferramenta criada para difundir o conceito de Internet das Coisas. Um kit completo de fácil programação para a criação de aplicações.">
+    <meta property="og:url"            content="http://iot.telefonicabeta.com">
+    <meta property="og:type"           content="website">
+    <meta property="og:image"          content="http://iot.telefonicabeta.com/images/arduino.png">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="assets/js/modernizr.js"></script>
+  </head>
+
+  <body>
+    <%- partial("partials/_header") %>
+
+    <%- yield %>
+
+    <%- partial("partials/_footer") %>
+  </body>
+</html>
