@@ -11,10 +11,13 @@
         "link": "/kit-iot",
         "active": true
       }, {
-        "title": "o que é",
+        "title": "O que é",
         "link": "#o-que-e"
       }, {
-        "title": "fale conosco",
+        "title": "Documentação",
+        "link": "#documentacao"
+      }, {
+        "title": "Fale conosco",
         "link": "/fale-conosco"
       }
     ]

@@ -14,7 +14,10 @@
         "title": "o que é",
         "link": "#o-que-e"
       }, {
-        "title": "fale conosco",
+        "title": "Documentação",
+        "link": "#documentacao"
+      }, {
+        "title": "Fale Conosco",
         "link": "/fale-conosco"
       }
     ]
