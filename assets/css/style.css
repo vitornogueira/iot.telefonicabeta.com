@@ -1,49 +1,27 @@
-/*	################################################################
-
-	Author: Carlos Alvarez
-	URL: http://alvarez.is
-
-	Project Name: SOLID - Bootstrap 3 Theme
-	Version: 1.0
-	URL: http://alvarez.is
-	
-################################################################# */ 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
-@import url("prettyPhoto.css") screen;
-@import url("hoverex-all.css") screen;
+@import url("lib/prettyPhoto.css") screen;
+@import url("lib/hoverex-all.css") screen;
 
-/*	################################################################
-	1. GENERAL STRUCTURES
-################################################################# */
-	* { 
-		margin: 0;
-		padding: 0px;
-	} 
-
-body { 
-	background: #ffffff; 
-	margin: 0; 
-	height: 100%; 
+body {
+	margin: 0;
+	height: 100%;
 	color: #384452;
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	}
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 }
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 14px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
+	font-size: 14px;
 	line-height: 24px;
-	color: #384452; 
-	margin-top: 10px; 
+	color: #384452;
+	margin-top: 10px;
 }
 
 img {
@@ -51,16 +29,17 @@ img {
 	max-width: 100%;
 }
 
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -89,11 +68,6 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
-}
-
-.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
 }
 
 .navbar-header .navbar-brand {
@@ -200,10 +174,11 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+
+
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
-
 #headerwrap {
 	background-color: #00b3fe;
 	min-height: 550px;
@@ -262,8 +237,7 @@ a:focus {
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
 
 
-.tpl6 h3
-{
+.tpl6 h3 {
 	color:#fff;
 	margin:0;
 	padding:40px 5px 0;
@@ -296,7 +270,7 @@ a:focus {
 	background-position: center center;
 	min-height: 450px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -409,52 +383,15 @@ csmall2 {
 	background-position: center center;
 	min-height: 400px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* Blog Page */
-.popular-posts { 
-	margin: 0px;
-	padding-left: 0px;
-	}
-	
-.popular-posts li {
-	list-style: none; 
-	margin-bottom: 20px; 
-	min-height: 70px;
-}
-.popular-posts li a, 
-.popular-posts li a:hover {
-	color:#2f2f2f; 
-	text-decoration: none;
-	}
-	
-.popular-posts li img {
-	float: left; 
-	margin-right: 20px;
-	}
-	
-.popular-posts li em {
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
-	color: #b3b3b3
-	}
-
-.popular-posts p {
-	line-height: normal;
-	margin-bottom: auto;
-}	
-
-.share i {
-	padding-right: 15px;
-	font-size: 18px;
-}
