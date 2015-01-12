@@ -1,23 +1,41 @@
-.main-categories {
-  margin-top: 70px;
+@import "_variables";
+@import "_mixins";
 
+
+//Main banner in the index page
+.main-banner {
+  background: url(../img/main/i-make-things-alive.png) no-repeat center center;
+  background-size: cover;
+  margin-top: 70px;
+  height: 560px;
+}
+
+//Main categories in the index page
+.main-categories {
   .main-category {
     background-position: center center;
     background-size: cover;
-    transition: background 1s ease-in;
+    padding: 0;
 
     &:hover {
       background-size: 120%;
+
+      .main-category-title {
+        background: @lightBlue;
+      }
     }
   }
 
   .main-category-title {
-    text-shadow: 1px 3px 0 rgba(255, 255, 255, 1);
+    color: @white;
+    background: @blue;
+    margin: 0 0 20px 0;
+    padding: 8px;
+    .transition();
   }
 
   .main-category-link {
     display: block;
-    padding: 30px;
     min-height: 300px;
     text-align: center;
   }

@@ -1,14 +1,14 @@
 {
   "index": {
-    "title": "Kit Desenvolvimento IoT 4G",
+    "title": "Kit Desenvolvimento IoT Wearable",
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
     "menu": [
       {
         "title": "Home",
         "link": "/"
       }, {
-        "title": "Kit Iot 4G",
-        "link": "/kit-iot-4g",
+        "title": "Kit Iot Wearable",
+        "link": "/kit-iot-wearable",
         "active": true
       }, {
         "title": "o que é",

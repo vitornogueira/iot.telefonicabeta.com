@@ -12,14 +12,14 @@
         <img src="/assets/img/internet-of-things-telefonica-vivo.png">
       </a>
     </div>
+
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="index.html">HOME</a>
+        <% menu.forEach(function (item) { %>
+        <li <% if (item.active) { %>class="active" <% } %>>
+          <a href="<%= item.link %>"><%= item.title %></a>
         </li>
-        <li>
-          <a href="contact.html">FALE CONOSCO</a>
-        </li>
+        <% }) %>
       </ul>
     </div>
   </div>

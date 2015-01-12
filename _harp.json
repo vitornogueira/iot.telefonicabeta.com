@@ -1,7 +1,7 @@
 {
   "globals": {
-    "title": "Internet of Things Telefonica VIVO - IoT",
-    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas. Um kit completo de fácil programação para a criação de aplicações.",
+    "title": "Internet of Things - IoT",
+    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
     "socials": [
       {
         "name": "twitter",
@@ -9,6 +9,42 @@
       }, {
         "name": "facebook",
         "link": "https://www.facebook.com/groups/IoTM2M"
+      }
+    ],
+
+    "menu": [
+      {
+        "title": "Home",
+        "link": "/",
+        "active": true
+      }, {
+        "title": "Kit IoT",
+        "link": "/kit-iot"
+      }, {
+        "title": "Kit IoT 4G",
+        "link": "/kit-iot-4g"
+      }, {
+        "title": "Kit IoT Wearable",
+        "link": "/kit-iot-wearable"
+      }, {
+        "title": "Fale Conosco",
+        "link": "/fale-conosco"
+      }
+    ],
+
+    "categories": [
+      {
+        "title": "Kit Iot",
+        "img": "/assets/img/main/kit-iot.jpg",
+        "link": "/kit-iot"
+      }, {
+        "title": "Kit Iot 4G",
+        "img": "/assets/img/main/kit-iot-4g.jpg",
+        "link": "/kit-iot-4g"
+      }, {
+        "title": "Kit Iot Wearable",
+        "img": "/assets/img/main/kit-iot-wearable.jpg",
+        "link": "/kit-iot-wearable"
       }
     ]
   }
