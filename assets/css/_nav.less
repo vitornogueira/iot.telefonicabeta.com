@@ -1,0 +1,43 @@
+.navbar {
+	min-height: 70px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.navbar-default {
+  background: @darkBlue;
+  border: none;
+
+  .navbar-nav > li {
+    &.active {
+      a {
+        background: none;
+        color: @mediumBlue;
+
+        &:hover {
+          background: none;
+          color: @mediumBlue;
+        }
+      }
+    }
+
+    & > a {
+      color: @white;
+      font-size: 12px;
+      letter-spacing: 1px;
+
+      &:hover {
+        color: @mediumBlue;
+      }
+    }
+  }
+}
+
