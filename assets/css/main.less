@@ -1,16 +1,62 @@
 @import "_variables";
 @import "_mixins";
 
+@import "_footer";
+@import "_about";
+@import "_main-banner";
+@import "_helpers";
 
-//Main banner in the index page
-.main-banner {
-  background: url(../img/main/i-make-things-alive.png) no-repeat center center;
-  background-size: cover;
-  margin-top: 70px;
-  height: 560px;
+/*
+ * Defaults
+ */
+body {
+	margin: 0;
+	height: 100%;
+	color: @darkBlue;
+	font-family: 'Lato', sans-serif;
 }
 
-//Main categories in the index page
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	.transition;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: @mediumBlue;
+}
+
+::-moz-selection  {
+	color: @white;
+	text-shadow: none;
+	background: @lightBlue;
+}
+::selection {
+	color: @white;
+	text-shadow: none;
+	background: @lightBlue;
+}
+
+/*
+ * Main categories in the index page
+ */
 .main-categories {
   .main-category {
     background-position: center center;

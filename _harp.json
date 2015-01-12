@@ -4,11 +4,17 @@
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
     "socials": [
       {
+        "name": "facebook",
+        "link": "https://www.facebook.com/groups/IoTM2M"
+      }, {
+        "name": "github",
+        "link": "https://github.com/telefonicadigital"
+      }, {
         "name": "twitter",
         "link": "http://www.twitter.com"
       }, {
-        "name": "facebook",
-        "link": "https://www.facebook.com/groups/IoTM2M"
+        "name": "youtube",
+        "link": "https://www.youtube.com/user/telefonicabrasil"
       }
     ],
 
