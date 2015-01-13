@@ -1,0 +1,4 @@
+[submodule "www"]
+	path = www
+	url = https://github.com/telefonicadigital/iot.telefonicabeta.com.git
+	branch = gh-pages
