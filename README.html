@@ -85,8 +85,44 @@
 </div>
 
 
-    <h1>iot.telefonicabeta.com</h1>
-<p>Site stático utilizando <a href="http://harpjs.com/">Harpjs</a></p>
+    <h1>IoT Telefonicabeta</h1>
+<p>Código fonte do site <a href="http://iot.telefonicabeta.com">iot.telefonicabeta.com</a> utilizando o gerador de sites estáticos <a href="http://harpjs.com/">Harp.js</a>.</p>
+<h2>Desenvolvimento</h2>
+<p>Para poder trabalhar no desenvolvimento você tem que instalar o módulo de NodeJS <a href="https://www.npmjs.com/package/harp">Harp</a>.</p>
+<p>Para realizar alterações no site você nunva deve alterar nenhum arquivo compilado (ex: <strong>html</strong>) nem que estaja dentro da pasta <strong>www</strong>. A pasta <strong>www</strong> é uma pasta auto gerada pelo Harp e não é versionada na branch <strong>master</strong>.</p>
+<p>Os arquivos que você vai trabalhar são os arquvos <strong>.less</strong>, <strong>.ejs</strong>, <strong>json</strong>, <strong>.md</strong>.</p>
+<ul>
+<li><strong>less</strong> (precompilador para css) <a href="http://lesscss.org/">link</a></li>
+<li><strong>ejs</strong> (templates em javascript) <a href="http://www.embeddedjs.com/">link</a></li>
+<li><strong>md</strong> (markdown -Text to HTML) <a href="http://daringfireball.net/projects/markdown/syntax">link</a></li>
+</ul>
+<p>Para visualizar as suas alterações você pode deve utilizar o comando:</p>
+<pre><code>$ harp server</code></pre>
+<p>Agora abra o navegado na url <a href="http://localhost:9000"><a href="http://localhost:9000">http://localhost:9000</a></a> e veja suas alterações.</p>
+<h2>Deploy</h2>
+<p>O site está hospedado no <a href="https://pages.github.com/">GitHub Pages</a>, depois de fazer as alterações que deseja e faça o commit do código na branch <strong>master</strong>.</p>
+<p>Depois execute o comando:</p>
+<pre><code>$ make deploy</code></pre>
+<p>O comando make deploy executa:
+<em> <strong>harp compile</strong> 
+    </em> para gerar o conteúdo estático do site <a href="http://harpjs.com/docs/environment/compile">link</a>
+<em> checkout da branch <strong>gh-pages</strong>
+</em> faz o commit das alterações na branch <strong>gh-pages</strong>
+<em> faz o checkout da branch <strong>master</strong>
+</em> apaga a pasta auto gerada <strong>www</strong></p>
+<h2>Autor</h2>
+<table>
+<thead>
+<tr>
+<th><a href="http://twitter.com/vitorleal" title="Follow @vitorleal on Twitter"><img src="http://gravatar.com/avatar/e133221d7fbc0dee159dca127d2f6f00?s=80" alt="twitter/vitorleal"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://vitorleal.com">Vitor Leal</a></td>
+</tr>
+</tbody>
+</table>
 
 
     <div class="footer">
