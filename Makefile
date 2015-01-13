@@ -7,7 +7,7 @@ deploy:
 	cp -r www/ ./
 	make clean
 	git add .
-	git commit -m "deploy website"
+	git commit -m ":rocket: deploy website"
 	git push origin gh-pages
 	git checkout master
 
