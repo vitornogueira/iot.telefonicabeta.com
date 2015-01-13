@@ -6,7 +6,7 @@
     "menu": [
       {
         "title": "Home",
-        "link": "/"
+        "link": "../"
       }, {
         "title": "Kit Iot Wearable",
         "link": "/kit-iot-wearable",
@@ -19,7 +19,7 @@
         "link": "https://github.com/telefonicadigital/kit-iot-wearable"
       }, {
         "title": "Fale Conosco",
-        "link": "/fale-conosco"
+        "link": "./fale-conosco"
       }
     ]
   }
