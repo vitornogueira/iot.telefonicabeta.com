@@ -2,6 +2,7 @@
   "globals": {
     "title": "Internet of Things - IoT",
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "googleAnalytics": "UA-53133131-1",
     "base": "./",
 
     "socials": [
