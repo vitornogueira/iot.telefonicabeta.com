@@ -9,7 +9,7 @@
         "link": "../"
       }, {
         "title": "Kit Iot 4G",
-        "link": "/kit-iot-4g",
+        "link": "./",
         "active": true
       }, {
         "title": "o que é",
@@ -19,7 +19,7 @@
         "link": "#documentacao"
       }, {
         "title": "Fale Conosco",
-        "link": "./fale-conosco"
+        "link": "../fale-conosco"
       }
     ]
   }
