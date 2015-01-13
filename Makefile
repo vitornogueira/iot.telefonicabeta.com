@@ -1,6 +1,7 @@
 .PHONY: deploy clean
 
-print = @echo "=> $(1) ---------"
+print = @echo "=> $(1)"\
+				"\n-----------------------"
 
 deploy:
 	$(call print, "Compile site")
