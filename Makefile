@@ -4,6 +4,8 @@ print = @echo "=> $(1)"\
 				"\n-----------------------"
 
 deploy:
+	make clean
+
 	$(call print, "Compile site")
 	harp compile
 
