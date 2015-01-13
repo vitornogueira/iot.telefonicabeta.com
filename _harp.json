@@ -2,7 +2,7 @@
   "globals": {
     "title": "Internet of Things - IoT",
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
-    "base": "/",
+    "base": "./",
 
     "socials": [
       {
@@ -44,15 +44,15 @@
       {
         "title": "Kit Iot v.1",
         "img": "assets/img/main/kit-iot.jpg",
-        "link": "/kit-iot"
+        "link": "./kit-iot"
       }, {
         "title": "Kit Iot 4G v.2",
         "img": "assets/img/main/kit-iot-4g.jpg",
-        "link": "/kit-iot-4g"
+        "link": "./kit-iot-4g"
       }, {
         "title": "Kit Iot Wearable v.3",
         "img": "assets/img/main/kit-iot-wearable.jpg",
-        "link": "/kit-iot-wearable"
+        "link": "./kit-iot-wearable"
       }
     ]
   }
