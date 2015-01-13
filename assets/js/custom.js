@@ -15,6 +15,17 @@
     return false;
   });
 
+
+  //Youtube fancybox
+  $('.fancybox-media').fancybox({
+		openEffect : 'none',
+		closeEffect: 'none',
+		helpers: {
+			media: {}
+		}
+	});
+
+
   //Send mail
   $('.send-button').on('click', function (e) {
     e.preventDefault();
