@@ -9,30 +9,7 @@
   </div>
 </div>
 
-<div id="o-que-e" class="about">
-  <h2 class="text-center page-title">O que é?</h2>
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-4">
-        <img src="<%= base %>assets/img/kit-iot/arduino.png">
-        <h4 class="about-title">O equipamento</h4>
-        <p>Baseado na plataforma de prototipagem eletrônica livre Arduíno, foi desenvolvido um shield com sensores de luminosidade, contato, temperatura e luz.</p>
-      </div>
-
-      <div class="col-md-4">
-        <img src="<%= base %>assets/img/kit-iot/linguagem.png">
-        <h4 class="about-title">A linguagem</h4>
-        <p>Uma biblioteca em JavaScript (node.js) foi criada para simplificar o acesso aos sensores pelos desenvolvedores e enviar os dados diretamente a uma plataforma baseada na nuvem.</p>
-      </div>
-
-      <div class="col-md-4">
-        <img src="<%= base %>assets/img/kit-iot/cloud.png">
-        <h4 class="about-title">A nuvem</h4>
-        <p>Os dados são enviados a uma plataforma de alta performance escalável, que foi desenvolvida para ser flexível e modular para facilitar a construção de aplicações M2M baseadas em dados em tempo real.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<%- partial("../partials/_about", { about: public['kit-iot']._data.about }) %>
 
 <div id="documentacao" class="content-blue">
   <h2 class="text-center page-title">Documentação</h2>
