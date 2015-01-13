@@ -6,10 +6,10 @@
     "menu": [
       {
         "title": "Home",
-        "link": "/"
+        "link": "../"
       }, {
         "title": "Fale Conosco",
-        "link": "/fale-conosco",
+        "link": "./fale-conosco",
         "active": true
       }
     ]
