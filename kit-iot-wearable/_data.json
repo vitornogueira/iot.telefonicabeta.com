@@ -9,7 +9,7 @@
         "link": "../"
       }, {
         "title": "Kit Iot Wearable",
-        "link": "/kit-iot-wearable",
+        "link": "./",
         "active": true
       }, {
         "title": "o que é",

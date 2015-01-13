@@ -9,7 +9,7 @@
         "link": "../"
       }, {
         "title": "Kit Iot",
-        "link": "/kit-iot",
+        "link": "./",
         "active": true
       }, {
         "title": "O que é",
