@@ -2,6 +2,7 @@
   "index": {
     "title": "Fale conosco",
     "description": "Diga-nos seu nome e e-mail e teremos o prazer de lhe fornecer mais informações sobre os nossos Kit's Desenvolvimento Internet of Things",
+    "base": "../",
     "menu": [
       {
         "title": "Home",

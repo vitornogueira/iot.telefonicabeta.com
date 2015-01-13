@@ -2,6 +2,8 @@
   "globals": {
     "title": "Internet of Things - IoT",
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "base": "/",
+
     "socials": [
       {
         "name": "facebook",
@@ -21,35 +23,35 @@
     "menu": [
       {
         "title": "Home",
-        "link": "/",
+        "link": "./",
         "active": true
       }, {
         "title": "Kit IoT",
-        "link": "/kit-iot"
+        "link": "./kit-iot"
       }, {
         "title": "Kit IoT 4G",
-        "link": "/kit-iot-4g"
+        "link": "./kit-iot-4g"
       }, {
         "title": "Kit IoT Wearable",
-        "link": "/kit-iot-wearable"
+        "link": "./kit-iot-wearable"
       }, {
         "title": "Fale Conosco",
-        "link": "/fale-conosco"
+        "link": "./fale-conosco"
       }
     ],
 
     "categories": [
       {
         "title": "Kit Iot v.1",
-        "img": "/assets/img/main/kit-iot.jpg",
+        "img": "assets/img/main/kit-iot.jpg",
         "link": "/kit-iot"
       }, {
         "title": "Kit Iot 4G v.2",
-        "img": "/assets/img/main/kit-iot-4g.jpg",
+        "img": "assets/img/main/kit-iot-4g.jpg",
         "link": "/kit-iot-4g"
       }, {
         "title": "Kit Iot Wearable v.3",
-        "img": "/assets/img/main/kit-iot-wearable.jpg",
+        "img": "assets/img/main/kit-iot-wearable.jpg",
         "link": "/kit-iot-wearable"
       }
     ]

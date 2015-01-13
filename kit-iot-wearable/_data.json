@@ -2,6 +2,7 @@
   "index": {
     "title": "Kit Desenvolvimento IoT Wearable",
     "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "base": "../",
     "menu": [
       {
         "title": "Home",
