@@ -5,6 +5,10 @@ Código fonte do site [iot.telefonicabeta.com](http://iot.telefonicabeta.com) ut
 
 ##Desenvolvimento
 Para poder trabalhar no desenvolvimento você tem que instalar o módulo de NodeJS [Harp](https://www.npmjs.com/package/harp).
+```
+$ npm install harp -g
+```
+
 
 Para realizar alterações no site você nunva deve alterar nenhum arquivo compilado (ex: **html**) nem que estaja dentro da pasta **www**. A pasta **www** é uma pasta auto gerada pelo Harp e não é versionada na branch **master**.
 
@@ -30,7 +34,7 @@ $ make deploy
 ```
 
 O comando make deploy executa:
-* **harp compile** 
+* **harp compile**
 	* para gerar o conteúdo estático do site [link](http://harpjs.com/docs/environment/compile)
 * checkout da branch **gh-pages**
 * faz o commit das alterações na branch **gh-pages**
