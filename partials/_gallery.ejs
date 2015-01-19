@@ -1,25 +1,19 @@
-<div id="portfoliowrap">
-  <h3>Veja mais</h3>
+<% if (photos) { %>
+<div id="veja-mais" class="photos content">
+  <h2 class="text-center page-title">Veja mais</h2>
 
-  <div class="portfolio-centered">
-    <div class="recentitems portfolio row">
+  <div class="container">
+    <div class="text-center row">
 
       <% photos.forEach(function (photo) { %>
-      <div class="portfolio-item graphic-design col-md-2 col-sm-4 col-xs-6">
-        <div class="he-wrap tpl6">
-          <img src="assets/img/kit-iot-4g/thumbs/kit-iot-4g.jpg">
-          <div class="he-view">
-            <div class="bg a0" data-animate="fadeIn">
-              <h3 class="a1" data-animate="fadeInDown">Kit IoT</h3>
-              <a data-rel="prettyPhoto" href="assets/img/kit-iot-4g/kit-iot-4g.jpg" class="dmbutton a2" data-animate="fadeInUp">
-                <i class="fa fa-search"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 mb photo-frame">
+        <a class="fancybox photo-gallery" rel="photos" href="<%= base %><%= photo %>">
+          <img src="<%= base %><%= photo %>" alt="<%= title %>">
+        </a>
       </div>
       <% }) %>
 
     </div>
   </div>
 </div>
+<% } %>

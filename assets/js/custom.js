@@ -26,6 +26,10 @@
 	});
 
 
+	//Gallery fancybox
+	$(".photo-gallery").fancybox();
+
+
   //Send mail
   $('.send-button').on('click', function (e) {
     e.preventDefault();

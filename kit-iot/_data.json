@@ -18,6 +18,9 @@
         "title": "Documentação",
         "link": "#documentacao"
       }, {
+        "title": "Veja mais",
+        "link": "#veja-mais"
+      }, {
         "title": "Fale conosco",
         "link": "../fale-conosco"
       }
@@ -37,5 +40,8 @@
       "description": "Os dados são enviados a uma plataforma de alta performance escalável, que foi desenvolvida para ser flexível e modular para facilitar a construção de aplicações M2M baseadas em dados em tempo real.",
       "img": "assets/img/kit-iot/cloud.png"
     }
+  ],
+  "photos": [
+    "assets/img/kit-iot/gallery/banner.jpg"
   ]
 }
