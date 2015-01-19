@@ -16,6 +16,9 @@
   });
 
 
+  //Tooltip
+  $('[data-toggle="tooltip"]').tooltip()
+
   //Youtube fancybox
   $('.fancybox-media').fancybox({
 		openEffect : 'none',

@@ -14,11 +14,36 @@
 
 <%- partial("../partials/_about", { about: public['kit-iot-4g']._data.about }) %>
 
-<div id="documentacao" class="content content-blue">
+<div id="documentacao" class="content content-blue text-center">
   <h2 class="text-center page-title">Documentação</h2>
-  <h3 class="text-center white">Pins utilizados</h3>
-  <div class="text-center">
-    <img src="<%= base %>assets/img/kit-iot-4g/arduinoBoard.jpg">
+  <a class="white big-text-size" href="https://github.com/telefonicadigital/kit-iot-4g">
+    <span class="icon-github-01 big-text-size"></span> Veja a documentação no GitHub
+  </a>
+
+  <div class="container">
+    <div class="row col-md-6 col-lg-offset-3 mt">
+      <h3 class="mb">Linguagens disponíveis</h3>
+
+      <div class="col-md-12">
+        <span title="NodeJS" data-toggle="tooltip" class="icon icon-prog-nodejs02 lighter-blue big-icon"></span>
+      </div>
+    </div>
+
+    <div class="row col-md-6 col-lg-offset-3 mt">
+      <h3 class="mb">Sistemas operacionais compatíveis</h3>
+
+      <div class="col-md-4">
+        <span title="MacOS" data-toggle="tooltip" class="icon icon-os-apple lighter-blue big-icon"></span>
+      </div>
+
+      <div class="col-md-4">
+        <span title="Linux" data-toggle="tooltip" class="icon icon-os-linux_1_ lighter-blue big-icon"></span>
+      </div>
+
+      <div class="col-md-4">
+        <span title="Windows" data-toggle="tooltip" class="icon icon-windows lighter-blue big-icon"></span>
+      </div>
+    </div>
   </div>
 </div>
 
