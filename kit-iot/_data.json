@@ -41,6 +41,23 @@
       "img": "assets/img/kit-iot/cloud.png"
     }
   ],
+  "docs": {
+    "link": "https://github.com/telefonicadigital/kit-iot",
+    "languages": [{
+      "name": "NodeJS",
+      "icon": "prog-nodejs02"
+    }],
+    "os": [{
+      "name": "MacOS",
+      "icon": "os-apple"
+    }, {
+      "name": "Linux",
+      "icon": "os-linux_1_"
+    }, {
+      "name": "Windows",
+      "icon": "windows"
+    }]
+  },
   "photos": [
     "assets/img/kit-iot/gallery/foto1.png",
     "assets/img/kit-iot/gallery/foto2.png",

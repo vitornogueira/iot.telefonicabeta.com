@@ -45,6 +45,23 @@
       "img": "assets/img/kit-iot-4g/4g.png"
     }
   ],
+    "docs": {
+    "link": "https://github.com/telefonicadigital/kit-iot-4g",
+    "languages": [{
+      "name": "NodeJS",
+      "icon": "prog-nodejs02"
+    }],
+    "os": [{
+      "name": "MacOS",
+      "icon": "os-apple"
+    }, {
+      "name": "Linux",
+      "icon": "os-linux_1_"
+    }, {
+      "name": "Windows",
+      "icon": "windows"
+    }]
+  },
   "photos": [
     "assets/img/kit-iot-4g/gallery/foto1.jpg",
     "assets/img/kit-iot-4g/gallery/foto2.jpg",

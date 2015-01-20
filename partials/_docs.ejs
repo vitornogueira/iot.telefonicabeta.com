@@ -1,0 +1,35 @@
+<% if (docs) { %>
+<div id="documentacao" class="content content-blue text-center">
+  <h2 class="text-center page-title">Documentação</h2>
+
+  <a class="white big-text-size" href="<%= docs.link %>" target="_blank">
+    <span class="icon-github-01 big-text-size big-icon block"></span> Veja a documentação no GitHub
+  </a>
+
+  <div class="container mt">
+    <div class="row col-md-6 col-lg-offset-3 mt">
+      <h3 class="mb">Linguagens disponíveis</h3>
+
+      <%
+        var colLang = Math.ceil(12/docs.languages.length);
+        docs.languages.forEach(function (lang) { %>
+      <div class="col-md-<%= colLang %>">
+        <span title="<%= lang.name %>" data-toggle="tooltip" class="icon icon-<%= lang.icon %> lighter-blue big-icon"></span>
+      </div>
+      <% }); %>
+    </div>
+
+    <div class="row col-md-6 col-lg-offset-3 mt">
+      <h3 class="mb">Sistemas operacionais compatíveis</h3>
+
+      <%
+        var colOs = Math.ceil(12/docs.os.length);
+        docs.os.forEach(function (os) { %>
+      <div class="col-md-<%= colOs %>">
+        <span title="<%= os.name %>" data-toggle="tooltip" class="icon icon-<%= os.icon %> lighter-blue big-icon"></span>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</div>
+<% } %>
