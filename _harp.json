@@ -40,17 +40,21 @@
 
     "categories": [
       {
-        "title": "Kit Iot v.1",
+        "title": "Kit IoT",
         "img": "assets/img/main/kit-iot.jpg",
         "link": "./kit-iot"
       }, {
-        "title": "Kit Iot 4G v.2",
+        "title": "Kit Iot 4G",
         "img": "assets/img/main/kit-iot-4g.jpg",
         "link": "./kit-iot-4g"
       }, {
-        "title": "Kit Iot Wearable v.3",
+        "title": "Kit Iot Wearable",
         "img": "assets/img/main/kit-iot-wearable.jpg",
         "link": "./kit-iot-wearable"
+      }, {
+        "title": "Kit de Conectividade ",
+        "img": "assets/img/main/kit-iot-wearable.jpg",
+        "link": "./kit-de-conectividade"
       }
     ]
   }

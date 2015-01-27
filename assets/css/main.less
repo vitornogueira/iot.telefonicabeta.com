@@ -85,7 +85,10 @@ a:focus {
     padding: 0;
 
     &:hover {
-      background-size: 120%;
+      .transform(scale(1.1));
+      .transition(@time: .3s);
+      .box-shadow(0 0 30px rgba(0, 0, 0, .8));
+      z-index: 10;
 
       .main-category-title {
         background: @lightBlue;
@@ -96,8 +99,11 @@ a:focus {
   .main-category-title {
     color: @white;
     background: @blue;
+    border-left: solid 1px lighten(@lightBlue, 25%);
+    font-size: 19px;
     margin: 0 0 20px 0;
-    padding: 8px;
+    padding: 14px;
+    text-transform: uppercase;
     .transition();
   }
 

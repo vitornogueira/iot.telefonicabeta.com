@@ -12,7 +12,7 @@
 
 <div class="clearfix main-categories">
   <% categories.forEach(function (category) { %>
-  <div class="col-md-4 main-category" style="background-image: url(<%= category.img %>)">
+  <div class="col-md-3 main-category" style="background-image: url(<%= category.img %>)">
     <a href="<%= category.link %>" class="main-category-link">
       <h2 class="main-category-title"><%= category.title %></h2>
       <% if (category.description) { %>
