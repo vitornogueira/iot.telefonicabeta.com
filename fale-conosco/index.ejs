@@ -1,38 +1,62 @@
 <div class="main-banner main-banner-fale-conosco">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h1 class="main-banner-title">Fale conosco</h1>
-        <h2 class="main-banner-subtitle dark-blue">Tem alguma dúvida ou quer saber mais alguma informação sobre nossos Kits</h2>
-      </div>
+      <div class="col-lg-8 col-lg-offset-2"></div>
     </div>
   </div>
 </div>
 
 <div class="form-fale-conosco">
-  <h4 class="mb">Diga-nos seu nome e e-mail e teremos o prazer de lhe fornecer mais informações sobre os nossos Kits Desenvolvimento IoT.</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="mb">Entre em contato conosco:</h2>
+      <p>O Centro de Inovação localiza-se no escritório sede da Telefônica Vivo</p>
 
-  <form role="form">
-    <div class="form-group">
-      <label for="nome">Nome *</label>
-      <input type="text" name="nome" class="form-control" id="nome" required>
+      <address class="adr mt">
+        <span class="street-address block">Av. Luis Carlos Berrini, 1.376 -  29º andar</span>
+        <span class="block">CEP <span class="postal-code">04571-000</span> - <span class="locality">São Paulo</span> – <span class="region">SP</span></span>
+        <span>São Paulo - <span class="country-name">Brasil</span></span>
+      </address>
+
+      <div class="mb">
+        <strong class="block">Telefônica Vivo</strong>
+        <span class="block">Assessoria de Imprensa</span>
+        <span>Tel. <strong>11 3430-7020</strong></span>
+      </div>
+
+      <div>
+        <p>Para facilitar seu dia a dia e ficarmos ainda mais próximos, criamos um aplicativo exclusivo para tablets e smartphones. O app permite falar com nossos assessores de imprensa, além de trazer notícias e conteúdos institucionais.</p>
+        <p>Veja como baixar: <a href="http://imprensatelefonica.com.br/app/">http://imprensatelefonica.com.br/app/</a></p>
+        <p>Para saber sobre os demais Centros fora do Brasil <a href="http://www.tid.es/">http://www.tid.es/</a></p>
+      </div>
     </div>
 
-    <div class="form-group">
-      <label for="sobrenome">Sobrenome *</label>
-      <input type="text" name="sobrenome" class="form-control" id="sobrenome" required>
-    </div>
+    <div class="col-md-6">
+      <h4 class="mb">Diga-nos seu nome e e-mail e teremos o prazer de lhe fornecer mais informações sobre os nossos Kits Desenvolvimento IoT.</h4>
 
-    <div class="form-group">
-      <label for="email">Email *</label>
-      <input type="email" name="email" class="form-control" id="email" required>
-    </div>
+      <form action role="form">
+        <div class="form-group">
+          <label for="nome">Nome *</label>
+          <input type="text" name="nome" class="form-control" id="nome" required>
+        </div>
 
-    <div class="form-group">
-      <label for="mensagem">Message</label>
-      <textarea class="form-control" name="mensagem" id="mensagem" rows="5"></textarea>
-    </div>
+        <div class="form-group">
+          <label for="sobrenome">Sobrenome *</label>
+          <input type="text" name="sobrenome" class="form-control" id="sobrenome" required>
+        </div>
 
-    <button type="submit" class="btn btn-block btn-lg btn-success send-button">Enviar mensagem</button>
-  </form>
+        <div class="form-group">
+          <label for="email">E-Mail *</label>
+          <input type="email" name="email" class="form-control" id="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem *</label>
+          <textarea class="form-control" name="mensagem" id="mensagem" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-block btn-lg btn-success send-button">Enviar mensagem</button>
+      </form>
+    </div>
+  </div>
 </div>
