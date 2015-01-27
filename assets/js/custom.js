@@ -30,7 +30,7 @@
 
 
 	//Gallery fancybox
-	$(".photo-gallery").fancybox();
+	$('.photo-gallery').fancybox();
 
 
   //Send mail
@@ -42,30 +42,27 @@
         email   = $('#email').val(),
         message = $('#mensagem').val();
 
-    var message = "Meu nome é " + name + " "+ last +"<"+ email +">, minha mensagem é: " + message + "\n\n";
+    var msg = 'Meu nome é ' + name + ' '+ last +'<'+ email +'>, minha mensagem é: ' + message + '\n\n';
 
-    if (name && last && email) {
+    if (name && last && email && message) {
       $.ajax({
         url : 'http://iotmail.telefonicabeta.com/send.php',
         type: 'POST',
         data: {
-          "from": email,
-          "form_name": name + " " + last,
-          "body": message
+          'from': email,
+          'form_name': name + ' ' + last,
+          'body': msg
         },
-        success : function(m) {
+        success: function (m) {
           if (m.status) {
             sweetAlert('Sucesso', 'Mensagem enviada com sucesso', 'success');
-            $('#nome').val(''),
-            $('#sobrenome').val(''),
-            $('#email').val(''),
-            $('#mensagem').val('');
+            $('#nome, #sobrenome, #email, #mensagem').val('');
 
           } else {
             sweetAlert('Erro', 'Ocorreu um erro ao enviar o email, tente novamente', 'error');
           }
         },
-        error: function(m) {
+        error: function (m) {
           sweetAlert('Erro', 'Ocorreu um erro ao enviar o email, tente novamente', 'error');
         }
       });
