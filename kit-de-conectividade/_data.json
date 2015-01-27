@@ -1,0 +1,39 @@
+{
+  "index": {
+    "title": "Kit de Conectividade",
+    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "base": "../",
+    "menu": [
+      {
+        "title": "Home",
+        "link": "../"
+      }, {
+        "title": "Kit de Conectividade",
+        "link": "./",
+        "active": true
+      }, {
+        "title": "o que é",
+        "link": "#o-que-e"
+      }, {
+        "title": "Fale Conosco",
+        "link": "../fale-conosco"
+      }
+    ]
+  },
+  "about": [
+    {
+      "title": "Wifi",
+      "description": "Lorem ipsum dolor sit amet",
+      "img": "assets/img/kit-de-conectividade/wifi.png"
+    }, {
+      "title": "Zigbee",
+      "description": "Lorem ipsum dolor sit amet",
+      "img": "assets/img/kit-de-conectividade/zigbee.png"
+    }, {
+      "title": "A conectividade",
+      "description": "Utilizando Bluetooth Low Energy (BLE), o kit de desenvolvimento envia dados em tempo real para uma nuvem permitindo ao usuário acessá-los de qualquer lugar.",
+      "img": "assets/img/kit-iot-wearable/bluetooth.png"
+    }
+  ]
+}
+
