@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Kit de Conectividade",
-    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "description": "Estenda as fronteiras transformando o Kit IoT 4G em um gateway de conectividade",
     "base": "../",
     "menu": [
       {
@@ -36,6 +36,16 @@
       "description": "O kit de conectividade possui os seguintes protocolos de comunicação: Wi-Fi, 6LoWPAN, ZigBee, Bluetooth Low Energy, permitindo uma gama de novas possibilidade para os desenvolvedores",
       "img": "assets/img/kit-de-conectividade/bluetooth.png"
     }
+  ],
+  "photos": [
+    "assets/img/kit-de-conectividade/gallery/foto1.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto2.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto3.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto4.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto5.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto6.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto7.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto8.jpg"
   ]
 }
 

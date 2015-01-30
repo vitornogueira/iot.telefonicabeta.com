@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Kit Desenvolvimento IoT Wearable",
-    "description": "Leve e cheio de sensores, o novo Kit IoT wearable foi desenvolvido para ser levado com você.",
+    "description": "Leve e cheio de sensores, o novo Kit IoT wearable foi desenvolvido para ser levado com você",
     "base": "../",
     "menu": [
       {
@@ -16,7 +16,7 @@
         "link": "#o-que-e"
       }, {
         "title": "Documentação",
-        "link": "https://github.com/telefonicadigital/kit-iot-wearable"
+        "link": "https://github.com/telefonicadigital/kit-iot-wearable-node/blob/master/DOCS.md"
       }, {
         "title": "Veja mais",
         "link": "#veja-mais"
@@ -40,6 +40,16 @@
       "description": "Utilizando Bluetooth Low Energy (BLE), o kit iot wearable envia dados em tempo real para qualquer dispositivo compatível com essa tecnologia.",
       "img": "assets/img/kit-iot-wearable/bluetooth.png"
     }
+  ],
+  "photos": [
+    "assets/img/kit-iot-wearable/gallery/foto1.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto2.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto3.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto4.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto5.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto6.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto7.jpg",
+    "assets/img/kit-iot-wearable/gallery/foto8.jpg"
   ]
 }
 
