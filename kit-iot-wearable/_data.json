@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Kit Desenvolvimento IoT Wearable",
-    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "description": "Leve e cheio de sensores, o novo Kit IoT wearable foi desenvolvido para ser levado com você.",
     "base": "../",
     "menu": [
       {
@@ -18,6 +18,9 @@
         "title": "Documentação",
         "link": "https://github.com/telefonicadigital/kit-iot-wearable"
       }, {
+        "title": "Veja mais",
+        "link": "#veja-mais"
+      }, {
         "title": "Fale Conosco",
         "link": "../fale-conosco"
       }
@@ -26,15 +29,15 @@
   "about": [
     {
       "title": "O equipamento",
-      "description": "Baseado na plataforma de prototipagem eletrônica livre Arduíno, foi desenvolvido um shield com sensores de luminosidade, contato, temperatura e luz.",
+      "description": "Baseado na plataforma de prototipagem eletrônica livre Arduíno, o kit iot wearable é leve e foi desenvolvido para ser levado com você a qualquer lugar.",
       "img": "assets/img/kit-iot-wearable/arduino.png"
     }, {
       "title": "A nuvem",
-      "description": "Os dados são enviados a uma plataforma de alta performance escalável, que foi desenvolvida para ser flexível e modular para facilitar a construção de aplicações M2M baseadas em dados em tempo real.",
+      "description": "O kit iot wearable possui sensores de temperatura, humidade e acelerômetro, além de um buzzer, leds RGB e dois botões, permitindo uma gama de possibilidade para os desenvolvedores.",
       "img": "assets/img/kit-iot-wearable/cloud.png"
     }, {
       "title": "A conectividade",
-      "description": "Utilizando Bluetooth Low Energy (BLE), o kit de desenvolvimento envia dados em tempo real para uma nuvem permitindo ao usuário acessá-los de qualquer lugar.",
+      "description": "Utilizando Bluetooth Low Energy (BLE), o kit iot wearable envia dados em tempo real para qualquer dispositivo compatível com essa tecnologia.",
       "img": "assets/img/kit-iot-wearable/bluetooth.png"
     }
   ]

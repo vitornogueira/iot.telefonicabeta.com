@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Kit Desenvolvimento IoT",
-    "description": "Uma ferramenta criada para difundir o conceito de Internet das Coisas.",
+    "description": "Um kit completo de fácil programação para a criação de aplicações.",
     "base": "../",
     "menu": [
       {
@@ -16,7 +16,7 @@
         "link": "#o-que-e"
       }, {
         "title": "Documentação",
-        "link": "#documentacao"
+        "link": "https://github.com/telefonicadigital/kit-iot-wearable-node/blob/master/DOCS.md"
       }, {
         "title": "Veja mais",
         "link": "#veja-mais"
