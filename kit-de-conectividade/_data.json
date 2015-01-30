@@ -16,7 +16,7 @@
         "link": "#o-que-e"
       }, {
         "title": "Documentação",
-        "link": "https://github.com/telefonicadigital/kit-de-conectividade"
+        "link": "#documentacao"
       }, {
         "title": "Veja mais",
         "link": "#veja-mais"
@@ -37,14 +37,31 @@
       "img": "assets/img/kit-de-conectividade/connect-caixinha.png"
     }
   ],
+  "docs": {
+    "link": "https://github.com/telefonicadigital/kit-de-conectividade",
+    "languages": [{
+      "name": "NodeJS",
+      "icon": "prog-nodejs02"
+    }],
+    "os": [{
+      "name": "MacOS",
+      "icon": "os-apple"
+    }, {
+      "name": "Linux",
+      "icon": "os-linux_1_"
+    }, {
+      "name": "Windows",
+      "icon": "windows"
+    }]
+  },
   "photos": [
-    "assets/img/kit-de-conectividade/gallery/foto1.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto2.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto3.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto4.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto5.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto6.jpg",
-    "assets/img/kit-de-conectividade/gallery/foto7.jpg",
+    "assets/img/kit-de-conectividade/gallery/foto1.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto2.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto3.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto4.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto5.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto6.JPG",
+    "assets/img/kit-de-conectividade/gallery/foto7.JPG",
     "assets/img/kit-de-conectividade/gallery/foto8.jpg"
   ]
 }

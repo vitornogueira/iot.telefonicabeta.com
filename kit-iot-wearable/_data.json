@@ -16,8 +16,13 @@
         "link": "#o-que-e"
       }, {
         "title": "Documentação",
-        "link": "https://github.com/telefonicadigital/kit-iot-wearable-node/blob/master/DOCS.md"
-      }, {
+        "link": "#documentacao"
+      }
+      , {
+        "title": "Documentação",
+        "link": "#documentacao"
+      }
+      , {
         "title": "Veja mais",
         "link": "#veja-mais"
       }, {
@@ -41,15 +46,32 @@
       "img": "assets/img/kit-iot-wearable/bluetooth.png"
     }
   ],
+  "docs": {
+    "link": "https://github.com/telefonicadigital/kit-iot-wearable-node/blob/master/DOCS.md",
+    "languages": [{
+      "name": "NodeJS",
+      "icon": "prog-nodejs02"
+    }],
+    "os": [{
+      "name": "MacOS",
+      "icon": "os-apple"
+    }, {
+      "name": "Linux",
+      "icon": "os-linux_1_"
+    }, {
+      "name": "Windows",
+      "icon": "windows"
+    }]
+  },
   "photos": [
     "assets/img/kit-iot-wearable/gallery/foto1.jpg",
     "assets/img/kit-iot-wearable/gallery/foto2.jpg",
     "assets/img/kit-iot-wearable/gallery/foto3.jpg",
-    "assets/img/kit-iot-wearable/gallery/foto4.jpg",
-    "assets/img/kit-iot-wearable/gallery/foto5.jpg",
-    "assets/img/kit-iot-wearable/gallery/foto6.jpg",
-    "assets/img/kit-iot-wearable/gallery/foto7.jpg",
-    "assets/img/kit-iot-wearable/gallery/foto8.jpg"
+    "assets/img/kit-iot-wearable/gallery/foto4.JPG",
+    "assets/img/kit-iot-wearable/gallery/foto5.JPG",
+    "assets/img/kit-iot-wearable/gallery/foto6.JPG",
+    "assets/img/kit-iot-wearable/gallery/foto7.JPG",
+    "assets/img/kit-iot-wearable/gallery/foto8.JPG"
   ]
 }
 
