@@ -30,11 +30,11 @@
     {
       "title": "O equipamento",
       "description": "Criado para habilitar a comunicação entre diferentes arquiteturas, ambientes e dispositivos. O kit de conectividade possui diferentes protocolos que estendem as fronteiras do Kit IoT 4G",
-      "img": "assets/img/kit-iot-wearable/arduino.png"
+      "img": "assets/img/kit-de-conectividade/caixinha.png"
     }, {
       "title": "Os protocolos",
       "description": "O kit de conectividade possui os seguintes protocolos de comunicação: Wi-Fi, 6LoWPAN, ZigBee, Bluetooth Low Energy, permitindo uma gama de novas possibilidade para os desenvolvedores",
-      "img": "assets/img/kit-de-conectividade/bluetooth.png"
+      "img": "assets/img/kit-de-conectividade/connect-caixinha.png"
     }
   ],
   "photos": [

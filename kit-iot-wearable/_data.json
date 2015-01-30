@@ -30,11 +30,11 @@
     {
       "title": "O equipamento",
       "description": "Baseado na plataforma de prototipagem eletrônica livre Arduíno, o kit iot wearable é leve e foi desenvolvido para ser levado com você a qualquer lugar.",
-      "img": "assets/img/kit-iot-wearable/arduino.png"
+      "img": "assets/img/kit-iot-wearable/wearable.png"
     }, {
       "title": "A nuvem",
       "description": "O kit iot wearable possui sensores de temperatura, humidade e acelerômetro, além de um buzzer, leds RGB e dois botões, permitindo uma gama de possibilidade para os desenvolvedores.",
-      "img": "assets/img/kit-iot-wearable/cloud.png"
+      "img": "assets/img/kit-iot-wearable/sensors.png"
     }, {
       "title": "A conectividade",
       "description": "Utilizando Bluetooth Low Energy (BLE), o kit iot wearable envia dados em tempo real para qualquer dispositivo compatível com essa tecnologia.",
