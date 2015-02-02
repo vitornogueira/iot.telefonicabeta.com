@@ -1,7 +1,7 @@
 {
   "index": {
     "title": "Kit Desenvolvimento IoT Wearable",
-    "description": "Leve e cheio de sensores, o novo Kit IoT wearable foi desenvolvido para ser levado com você",
+    "description": "Leve e cheio de sensores, o wearable foi desenvolvido para ser levado com você",
     "base": "../",
     "menu": [
       {
@@ -17,12 +17,7 @@
       }, {
         "title": "Documentação",
         "link": "#documentacao"
-      }
-      , {
-        "title": "Documentação",
-        "link": "#documentacao"
-      }
-      , {
+      }, {
         "title": "Veja mais",
         "link": "#veja-mais"
       }, {
@@ -37,7 +32,7 @@
       "description": "Baseado na plataforma de prototipagem eletrônica livre Arduíno, o kit iot wearable é leve e foi desenvolvido para ser levado com você a qualquer lugar.",
       "img": "assets/img/kit-iot-wearable/wearable.png"
     }, {
-      "title": "A nuvem",
+      "title": "Os sensores",
       "description": "O kit iot wearable possui sensores de temperatura, humidade e acelerômetro, além de um buzzer, leds RGB e dois botões, permitindo uma gama de possibilidade para os desenvolvedores.",
       "img": "assets/img/kit-iot-wearable/sensors.png"
     }, {
