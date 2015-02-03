@@ -44,14 +44,8 @@
       "icon": "prog-nodejs02"
     }],
     "os": [{
-      "name": "MacOS",
-      "icon": "os-apple"
-    }, {
       "name": "Linux",
       "icon": "os-linux_1_"
-    }, {
-      "name": "Windows",
-      "icon": "windows"
     }]
   },
   "photos": [
