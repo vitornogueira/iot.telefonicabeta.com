@@ -6,8 +6,7 @@
     "menu": [
       {
         "title": "Home",
-        "link": "../",
-        "active": true
+        "link": "../"
       }, {
         "title": "Kit IoT",
         "link": "../kit-iot"
