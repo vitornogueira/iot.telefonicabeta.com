@@ -6,10 +6,23 @@
     "menu": [
       {
         "title": "Home",
-        "link": "../"
+        "link": "../",
+        "active": true
+      }, {
+        "title": "Kit IoT",
+        "link": "../kit-iot"
+      }, {
+        "title": "Kit IoT 4G",
+        "link": "../kit-iot-4g"
+      }, {
+        "title": "Kit IoT Wearable",
+        "link": "../kit-iot-wearable"
+      }, {
+        "title": "Kit de Conectividade",
+        "link": "../kit-de-conectividade"
       }, {
         "title": "Fale Conosco",
-        "link": "./",
+        "link": "../fale-conosco",
         "active": true
       }
     ]
