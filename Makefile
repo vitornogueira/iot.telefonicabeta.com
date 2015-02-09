@@ -27,4 +27,4 @@ deploy:
 	git checkout master
 
 clean:
-	rm -rf www
+	rm -rf www node_modules
