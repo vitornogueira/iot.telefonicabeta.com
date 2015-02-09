@@ -14,10 +14,10 @@
     </div>
 
     <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" role="menubar">
         <% menu.forEach(function (item) { %>
-        <li <% if (item.active) { %>class="active" <% } %>>
-          <a href="<%= item.link %>"><%= item.title %></a>
+        <li role="menuitem" <% if (item.active) { %>class="active" <% } %>>
+          <a role="link" href="<%= item.link %>"><%= item.title %></a>
         </li>
         <% }) %>
       </ul>
