@@ -30,7 +30,7 @@
     {
       "title": "O equipamento",
       "description": "Baseado na plataforma de prototipagem eletrônica livre Arduíno, foi desenvolvido um shield com sensores de luminosidade, contato, temperatura e luz.",
-      "img": "assets/img/kit-iot-wearable/arduino.png"
+      "img": "assets/img/kit-iot-4g/arduino.png"
     }, {
       "title": "A linguagem",
       "description": "Uma biblioteca em JavaScript (node.js) foi criada para simplificar o acesso aos sensores pelos desenvolvedores e enviar os dados diretamente a uma plataforma baseada na nuvem.",
