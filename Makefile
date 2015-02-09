@@ -1,4 +1,4 @@
-.PHONY: deploy clean
+.PHONY: deploy clean gulp
 
 print = @echo "=> $(1)"\
 				"\n-----------------------"
@@ -7,6 +7,9 @@ deploy:
 	make clean
 
 	$(call print, "Compile site")
+
+	make gulp
+
 	harp compile
 
 	$(call print, "Checkout gh-pages branch")
@@ -27,3 +30,8 @@ deploy:
 
 clean:
 	rm -rf www
+
+gulp:
+	cd assets
+	gulp
+	cd ..
