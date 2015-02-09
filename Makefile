@@ -6,11 +6,7 @@ print = @echo "=> $(1)"\
 deploy:
 	make clean
 
-	make gulp
-
 	$(call print, "Compile site")
-
-	make gulp
 
 	harp compile
 
@@ -32,7 +28,3 @@ deploy:
 
 clean:
 	rm -rf www
-
-gulp:
-	gulp
-	rm -rf node_modules
