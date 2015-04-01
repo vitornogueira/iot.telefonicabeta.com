@@ -4,15 +4,15 @@ Código fonte do site [iot.telefonicabeta.com](http://iot.telefonicabeta.com) ut
 
 
 ##Desenvolvimento
-Para poder trabalhar no desenvolvimento você tem que instalar o módulo de NodeJS [Harp](https://www.npmjs.com/package/harp).
+Para poder trabalhar no desenvolvimento você precisa instalar o módulo de NodeJS [Harp](https://www.npmjs.com/package/harp).
 ```
 $ npm install harp -g
 ```
 
 
-Para realizar alterações no site você nunva deve alterar nenhum arquivo compilado (ex: **html**) nem que estaja dentro da pasta **www**. A pasta **www** é uma pasta auto gerada pelo Harp e não é versionada na branch **master**.
+Para realizar alterações no site você nunca deve alterar nenhum arquivo compilado (ex: **html**) nem que esteja dentro da pasta **www**. A pasta **www** é uma pasta auto gerada pelo Harp e não é versionada na branch **master**.
 
-Os arquivos que você vai trabalhar são os arquvos **.less**, **.ejs**, **json**, **.md**.
+Os arquivos que você vai trabalhar são os arquivos **.less**, **.ejs**, **json**, **.md**.
 
 * **less** (precompilador para css) [link](http://lesscss.org/)
 * **ejs** (templates em javascript) [link](http://www.embeddedjs.com/)
@@ -22,11 +22,12 @@ Para visualizar as suas alterações você pode deve utilizar o comando:
 ```
 $ harp server
 ```
-Agora abra o navegado na url [http://localhost:9000](http://localhost:9000) e veja suas alterações.
+Agora abra o navegador na url [http://localhost:9000](http://localhost:9000) e veja suas alterações.
 
 
 ##Deploy
-O site está hospedado no [GitHub Pages](https://pages.github.com/), depois de fazer as alterações que deseja e faça o commit do código na branch **master**.
+O site está hospedado no [GitHub Pages](https://pages.github.com/).
+Depois de fazer as alterações que deseja e faça o commit do código na branch **master**.
 
 Depois execute o comando:
 ```
